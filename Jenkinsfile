@@ -1,6 +1,7 @@
-def FAILED_STAGE
+
 pipeline {
   agent any
+  def FAILED_STAGE
   stages {
     stage('Clone GIT1') {
       steps {
