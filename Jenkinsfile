@@ -2,7 +2,7 @@ def FAILED_STAGE
 pipeline {
   agent any
   stages {
-    stage('Clone GIT') {
+    stage('Clone GIT1') {
       steps {
         git(url: 'https://github.com/Balu1819/hello-world.git', credentialsId: 'balu1819', branch: 'master')
       }
